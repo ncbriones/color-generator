@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import ColorSquare from './ColorSquare'
-import InputColor from './InputColor'
+import ColorSquare from './components/ColorSquare'
+import InputColor from './components/InputColor'
 
 function App() {
   const [color, setColor] = useState('')
